@@ -17,51 +17,36 @@ PhonePe Pulse Data Visualization and Exploration: A User-Friendly Tool Using Str
 ### Domain
 Fintech
 
-## Problem Statement
-
-The PhonePe Pulse GitHub repository houses a vast amount of data related to various metrics and statistics. The objective is to extract, process, and visualize this data in a user-friendly manner. The solution must encompass the following steps:
-
-1. **Data Extraction:** Clone the PhonePe Pulse GitHub repository using scripting to fetch and store the data in a suitable format like CSV or JSON.
-
-2. **Data Transformation:** Utilize Python, Pandas, and other relevant libraries to manipulate and pre-process the data. This involves cleaning, handling missing values, and transforming the data into a format suitable for analysis and visualization.
-
-3. **Database Insertion:** Connect to a MySQL database using the "mysql-connector-python" library and insert the transformed data using SQL commands for efficient storage and retrieval.
-
-4. **Dashboard Creation:** Leverage Streamlit and Plotly libraries to create an interactive and visually appealing dashboard. Utilize Plotly's geo map functions to display data on a map and Streamlit to create a user-friendly interface with multiple dropdown options for users to select different facts and figures.
-
-5. **Data Retrieval:** Connect to the MySQL database using "mysql-connector-python" to fetch data into a Pandas dataframe. Dynamically update the dashboard with the latest data.
-
-6. **Deployment:** Ensure the solution is secure, efficient, and user-friendly. Thoroughly test the solution and deploy the dashboard publicly, making it accessible to users.
-
 ## Approach
 
-1. **Data Extraction:**
-   - Scripting to clone the GitHub repository.
-   - Store data in CSV or JSON format.
+### 1. Data Extraction:
 
-2. **Data Transformation:**
-   - Use Python and Pandas for manipulation.
-   - Handle missing values and clean the data.
+In this phase, the project initiates with a scripted process to clone the GitHub repository containing PhonePe Pulse data. Utilizing scripting ensures a seamless and automated extraction process. The extracted data is then stored in a structured format, either CSV or JSON, facilitating ease of use in subsequent steps.
 
-3. **Database Insertion:**
-   - Connect to MySQL using "mysql-connector-python."
-   - Insert transformed data using SQL commands.
+### 2. Data Transformation:
 
-4. **Dashboard Creation:**
-   - Utilize Streamlit and Plotly libraries.
-   - Incorporate Plotly's geo map functions.
-   - Create a user-friendly interface with dropdown options.
+Python, along with the Pandas library, is employed for data manipulation and transformation. This step involves comprehensive data cleaning, addressing missing values, and structuring the dataset to meet the requirements of analysis and visualization. By leveraging Python's powerful data processing capabilities, the dataset is refined and prepared for the next stages.
 
-5. **Data Retrieval:**
-   - Connect to MySQL database using "mysql-connector-python."
-   - Fetch data into a Pandas dataframe.
-   - Dynamically update the dashboard.
+### 3. Database Insertion:
 
-6. **Deployment:**
-   - Ensure security, efficiency, and user-friendliness.
-   - Thorough testing before public deployment.
+Connecting to a MySQL database using the "mysql-connector-python" library, the transformed data is efficiently inserted into the database. Utilizing SQL commands, the data is stored securely, ensuring a streamlined approach for storage and retrieval. This step enhances data management capabilities and supports the scalability of the solution.
+
+### 4. Dashboard Creation:
+
+The visualization aspect is crafted using Streamlit and Plotly libraries in Python. Plotly's geo-map functions are integrated to provide geographical insights visually. The user interface is designed to be intuitive and user-friendly, featuring dropdown options for users to select different metrics and figures. This ensures an interactive and engaging experience for users exploring the PhonePe Pulse data.
+
+### 5. Data Retrieval:
+
+Connecting back to the MySQL database with the "mysql-connector-python" library, the project retrieves the stored data into a Pandas dataframe. This dynamic retrieval ensures that the dashboard is consistently updated with the latest information, maintaining its relevance and usefulness over time.
+
+### 6. Deployment:
+
+Prior to public deployment, the solution undergoes rigorous testing to ensure security, efficiency, and user-friendliness. Thorough testing protocols are implemented to identify and rectify any potential issues. Once validated, the dashboard is deployed for public access, offering a reliable tool for users to explore and gain insights from the PhonePe Pulse data.
 
 ## Dataset
-- [Data Link]:-https://api.github.com/repos/PhonePe/pulse
+
+- Data Link: [PhonePe Pulse GitHub API](https://api.github.com/repos/PhonePe/pulse)
 - Inspired From: [PhonePe Pulse](https://www.phonepe.com/pulse)
+
+This project aims to provide a comprehensive and user-friendly solution for extracting, transforming, and visualizing data from the PhonePe Pulse GitHub repository, offering valuable insights for analysis and decision-making.
 
